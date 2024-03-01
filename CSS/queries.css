@@ -1,0 +1,251 @@
+/*
+
+- Font Size (px)
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Spacing System (px)
+    2/ 4/ 8/ 12 / 16 / 24 / 32 / 48 / 64 / 80/ 96 /128
+
+- Colors
+    Primary color: #3484B9 , #FF8464
+
+*/
+
+/* ******************************** */
+/* Below 1200px (LANDSCAPE TABLETS) */
+/* ******************************** */
+@media(max-width:75em){
+    html{
+        font-size: 56.25%;
+    }
+}
+
+/* ******************************** */
+/* Below 1074px (TABLETS) */
+/* ******************************** */
+
+@media(max-width:67.125em){
+    .our-services-grid{
+        grid-template-columns: 1fr;
+    }
+
+
+}
+
+
+/* ******************************** */
+/* Below 944px (TABLETS) */
+/* ******************************** */
+@media(max-width:59em){
+    html{
+        font-size: 50%;
+    }
+
+    .footer-grid{
+        grid-template-columns: 1fr;
+        row-gap: 5rem;
+    }
+
+    .pricing-card{
+        width: 80%;
+    }
+
+    .our-services-grid{
+        row-gap: 4.8rem;
+        place-items: center;
+
+
+    }
+
+    .healing-stories-flex{
+        gap: 4.8rem;
+    }
+
+    .featured-logo{
+        width: 20%;
+    }
+}
+
+
+/* ******************************** */
+/* Below 704px (PHONES) */
+/* ******************************** */
+@media(max-width:44em){
+
+    .why-choose-MS-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .step-description{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    #step-1-image{
+        width: 70%;
+        text-align: center;
+    }
+    #step-2-image{
+        width: 50%;
+        text-align: center;
+    }
+    #step-3-image{
+        width: 50%;
+        text-align: center;
+    }
+    
+    
+    .footer-grid{
+        grid-template-columns: 1fr;
+        row-gap: 5rem;
+    }
+
+    .hero-grid{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .primary-heading{
+        font-size: 5rem;
+        justify-content: center;
+
+    }
+
+    .headline{
+        font-size: 3.6rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        text-align: center;
+    }
+
+    .healed-customers{
+       justify-content: center;
+    }
+
+    .hero-image{
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .btn{
+        display: inline-block;
+        padding: 2rem 3rem;
+        border-radius: 1.6rem;
+    }
+
+    .btn-text{
+        font-size: 2.6rem;
+        font-weight: 800;
+    }
+
+    .healed-text{
+        font-size: 1.8rem;
+        text-align: center;
+    }
+
+    .service-features-list li{
+        font-size: 2.4rem;
+        text-align: left;
+    }
+
+    .healed-customers img{
+        height: 4.6rem;
+        width: 4.6rem;
+    }
+
+    .hero-text{
+        padding-top: 3rem;
+    }
+
+    .our-services-grid{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .per-month-text{
+        font-size: 1.8rem;
+    }
+    .pricing-card{
+        width: 80%;
+    }
+    
+    .healing-author{
+        align-self: left;
+        border-right: none;
+        border-bottom: 1rem solid #ff836436;
+    }
+
+    .author-name{
+        font-size: 2.4rem;
+
+    }
+    .author-profession{
+        font-size: 1.6rem;
+    }
+    .healing-text{
+        font-size: 2.2rem;
+    }
+    .healing-stories-card{
+        grid-template-columns: 1fr;
+        
+    }
+
+    .author-grid{
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+    .counsellor-img{
+        width: 80%;
+    }
+    .counsellor-text{
+        font-size: 2.2rem;
+    }
+
+    .book-now-btn{
+        display: flex;
+    }
+
+}
+
+@media(max-width:36em){
+
+    .our-services-grid{
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
+        row-gap: 2rem;
+    }
+    .pricing-card{
+        width: 50%;
+    }
+
+    .btn{
+        /* display: flex;
+        flex-direction: column; */
+    }
+
+    .headline{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .pricing-card{
+        width: 100%;
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+    .btn--primary{
+        margin-bottom: 2rem;
+    }
+
+    .faq-container{
+        width: 90%;
+    }
+}
+
