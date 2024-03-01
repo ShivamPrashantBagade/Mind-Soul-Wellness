@@ -223,14 +223,10 @@
         width: 50%;
     }
 
-    .btn{
-        /* display: flex;
-        flex-direction: column; */
-    }
-
     .headline{
         padding-left: 0;
         padding-right: 0;
+        font-size: 2.8rem;
     }
     .pricing-card{
         width: 100%;
